@@ -1,11 +1,7 @@
 // Package stringutil contains utility functions for working with strings.
 package stringUtil
 
-const (
-	// VERSION represent beego web framework version.
-	VERSION = "1.0.3"
 
-)
 
 // Reverse returns its argument string reversed rune-wise left to right.
 func Reverse(s string) string {	
